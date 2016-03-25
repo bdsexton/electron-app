@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="_assets/styles/main.css">
+	<title>A Basic Electron App</title>
+</head>
+<body>
+
+	<header>
+		<h1>A Basic Electron App</h1>
+	</header>
+
+	<div>
+
+		<h2>Introduction</h2>
+
+		<p>Hello! This is just a basic <a href="http://electron.atom.io/" target="_blank">Electron</a> app for tinkering purposes.</p>
+
+		<h2>Component Details</h2>
+
+		<table>
+			<thead>
+				<th>Component</th>
+				<th>Version</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Chrome</td>
+					<td>
+						<script>document.write(process.versions.chrome)</script>
+					</td>
+				</tr>
+				<tr>
+					<td>Electron</td>
+					<td>
+						<script>document.write(process.versions.electron)</script>
+					</td>
+				</tr>
+				<tr>
+					<td>Node.js</td>
+					<td>
+						<script>document.write(process.versions.node)</script>
+					</td>
+				</tr>
+				<tr>
+					<td>OpenSSL</td>
+					<td>
+						<script>document.write(process.versions.openssl)</script>
+					</td>
+				</tr>
+				<tr>
+					<td>V8</td>
+					<td>
+						<script>document.write(process.versions.v8)</script>
+					</td>
+				</tr>
+				<tr>
+					<td>zlib</td>
+					<td>
+						<script>document.write(process.versions.zlib)</script>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<h2>Notes</h2>
+
+		<p>This basic app may not be beautiful, but it does include basic responsiveness.</p>
+
+		<p><em>By default, links open within the current Electron browser window. Adding <span class="code">target=&quot;_blank&quot;</span> causes them to be opened in new Electron browser windows. Opening links in the operating system's default browser may be accomplished programmatically.</em></p>
+
+	</div>
+
+	<footer>
+		<p>Based on the Electron <a href="http://electron.atom.io/docs/latest/tutorial/quick-start/" target="_blank">Quick Start</a> Tutorial</p>
+		<p>Made in California by <a href="http://briansexton.com/" target="_blank">Brian Sexton</a></p>
+	</footer>
+
+</body>
+</html>

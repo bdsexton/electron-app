@@ -1,0 +1,149 @@
+/*============================================================================*\
+
+	CSS for a Basic Electron App
+	-----------------------------------------------------------------------
+	Made in California by Brian Sexton
+	http://briansexton.com/
+
+\*============================================================================*/
+
+/*----------------------------------------------------------------------------*\
+	Common
+\*----------------------------------------------------------------------------*/
+
+body
+{
+	padding: 0;
+	margin: 0;
+
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+
+	display: flex;
+
+	min-height: 100vh;
+
+	flex-direction: column;
+}
+
+h1
+{
+	margin: 0;
+}
+
+h2
+{
+	margin: 1em 0 0.5em 0;
+}
+
+p
+{
+	margin: 1em 0 1em 0;
+}
+
+p:first-child
+{
+	margin-top: 0;
+}
+
+p:last-child
+{
+	margin-bottom: 0;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+th, td
+{
+	border: 1px solid #555;
+	padding: 0.5em;
+}
+
+th
+{
+	background-color: #ccc;
+	text-align: left;
+}
+
+tr:nth-child(even) > td
+{
+	background-color: #eee;
+}
+
+.code
+{
+	background-color: rgba(221, 221, 255, 0.5);
+	font-family: Monaco, Consolas, monospace;
+	border-radius: 0.25em;
+	padding: 0.15em;
+}
+
+/*----------------------------------------------------------------------------*\
+	Page Header
+\*----------------------------------------------------------------------------*/
+
+body > header
+{
+	background-color: #ab9ea7;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	padding: 1em;
+}
+
+/*----------------------------------------------------------------------------*\
+	Main Content
+\*----------------------------------------------------------------------------*/
+
+body > div
+{
+	box-sizing: border-box;
+
+	padding: 1em;
+	margin: 0 auto 2em auto;
+
+	max-width: 60em;
+
+	flex: 1 1 auto;
+}
+
+/*----------------------------------------------------------------------------*\
+	Page Footer
+\*----------------------------------------------------------------------------*/
+
+body > footer
+{
+	background-color: #eee;
+	padding: 1em;
+}
+
+body > footer > p
+{
+	text-align: center;
+	margin: 0.25em;
+}
+
+@media (min-width: 768px)
+{
+	body > footer
+	{
+		display: flex;
+	}
+
+	body > footer > p
+	{
+		flex: 1 1 auto;
+		margin: 0;
+	}
+
+	body > footer > p:first-child
+	{
+		text-align: left;
+	}
+
+	body > footer > p:last-child
+	{
+		text-align: right;
+	}
+}
