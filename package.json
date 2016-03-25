@@ -6,6 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "UNLICENSED"
+  "author": " Brian Sexton (http://briansexton.com/)",
+  "license": "MIT"
 }
