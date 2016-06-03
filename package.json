@@ -1,11 +1,11 @@
 {
-  "name": "electron-app",
-  "version": "0.0.0",
-  "description": "This is just a basic Electron app for tinkering purposes.",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Brian Sexton (http://briansexton.com/)",
-  "license": "MIT"
+    "name": "electron-app",
+    "version": "0.0.0",
+    "description": "This is just a basic Electron app for tinkering purposes.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Brian Sexton (http://briansexton.com/)",
+    "license": "MIT"
 }
