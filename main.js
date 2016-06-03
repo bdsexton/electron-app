@@ -6,7 +6,7 @@
 	http://briansexton.com/
 	-----------------------------------------------------------------------
 	Based on the Electron Quick Start Tutorial
-	http://electron.atom.io/docs/latest/tutorial/quick-start/
+	http://electron.atom.io/docs/tutorial/quick-start/
 
 \*============================================================================*/
 
