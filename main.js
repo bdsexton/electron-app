@@ -20,6 +20,13 @@ const {BrowserWindow} = electron;
 
 let mainWindow;
 
+app.on('activate', () => {
+
+	if (mainWindow === null) {
+		createMainWindow();
+	}
+});
+
 app.on('window-all-closed', () => {
 
 	if (process.platform != 'darwin') {
