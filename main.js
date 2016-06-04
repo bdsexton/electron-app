@@ -38,7 +38,7 @@ function createMainWindow() {
 	// Uncomment the following to show Chrome dev tools by default.
 	//mainWindow.webContents.openDevTools();
 
-	mainWindow.on('close', () => {
+	mainWindow.on('closed', () => {
 		mainWindow = null;
 	});
 }
