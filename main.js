@@ -18,7 +18,7 @@ const {app} = electron;
 
 const {BrowserWindow} = electron;
 
-var mainWindow = null;
+let mainWindow;
 
 app.on('window-all-closed', function() {
 
