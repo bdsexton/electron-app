@@ -27,7 +27,9 @@ app.on('window-all-closed', function() {
 	}
 });
 
-app.on('ready', function() {
+app.on('ready', createMainWindow);
+
+function createMainWindow() {
 
 	mainWindow = new BrowserWindow({width: 800, height: 600});
 
@@ -39,4 +41,4 @@ app.on('ready', function() {
 	mainWindow.on('close', function() {
 		mainWindow = null;
 	});
-});
+}
