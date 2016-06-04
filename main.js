@@ -14,9 +14,9 @@
 
 const electron = require('electron');
 
-const app = electron.app;
+const {app} = electron;
 
-const BrowserWindow = electron.BrowserWindow;
+const {BrowserWindow} = electron;
 
 var mainWindow = null;
 
