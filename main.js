@@ -20,7 +20,7 @@ const {BrowserWindow} = electron;
 
 let mainWindow;
 
-app.on('window-all-closed', function() {
+app.on('window-all-closed', () => {
 
 	if (process.platform != 'darwin') {
 		app.quit();
@@ -38,7 +38,7 @@ function createMainWindow() {
 	// Uncomment the following to show Chrome dev tools by default.
 	//mainWindow.webContents.openDevTools();
 
-	mainWindow.on('close', function() {
+	mainWindow.on('close', () => {
 		mainWindow = null;
 	});
 }
