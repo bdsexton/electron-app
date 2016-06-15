@@ -8,7 +8,7 @@ This is just a basic Electron app for tinkering purposes. It is based on the [El
 
 ## Setup
 
-This project's **package.json** file does not currently specify any dependencies, but you will need Electron, obviously.
+This project's **package.json** file does not currently specify any dependencies, but you will need [Electron](http://electron.atom.io/), obviously.
 
 ## Running
 
