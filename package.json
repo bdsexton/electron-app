@@ -10,6 +10,9 @@
         "start": "electron .",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Brian Sexton (http://briansexton.com/)",
+    "author": {
+        "name": "Brian Sexton",
+        "url": "http://briansexton.com/"
+    },
     "license": "MIT"
 }
