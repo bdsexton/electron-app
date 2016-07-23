@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is just a basic Electron app for tinkering purposes.
+This is just a basic [Electron](http://electron.atom.io/) app for tinkering purposes.
 
 This project was started as a result of following an earlier version of the [Quick Start tutorial](http://electron.atom.io/docs/tutorial/quick-start/) in the [Electron Documentation](http://electron.atom.io/docs/). It has since been updated to maintain general parity of technique with the Electron 1.0 update to the tutorial, but the project's code and content do of course differ from those in the tutorial.
 
