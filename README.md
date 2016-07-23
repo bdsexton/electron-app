@@ -10,7 +10,13 @@ This project was started as a result of following an earlier version of the [Qui
 
 ## Setup
 
-This project's **package.json** file does not currently specify any dependencies, but you will need [Electron](http://electron.atom.io/), obviously.
+This project's **package.json** file now specifies **[electron-prebuilt](https://www.npmjs.com/package/electron-prebuilt)** as a dev dependency. This may or may not be the best way to go about things.
+
+For now, **electron-prebuilt** is this project's _only_ dependency, so if you have it installed globally, you can probably just skip local installation. If you _do_ want to install it locally, you can do so via **npm** like so:
+
+```bash
+npm install
+```
 
 ## Running
 
