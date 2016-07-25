@@ -37,6 +37,11 @@ electron .
 Of course there is some room for improvement! At the very least I will probably add some scripts and information for the following:
 * configuration
 * building
+* validation
+* testing
+
+I would also like to get CSSLint to shut up about Internet Explorer 6 and 7 because it is the second half of 2016 now and people should have stopped using such old versions of Internet Explorer several years ago, but I haven't yet had any success in convincing CSSLint to do or not do anything. Supposedly, CSSLint supports [options](https://github.com/CSSLint/csslint/wiki/rules) via a **.csslintrc** file, but I am just learning about CSSLint's options and how its configuration file may or [may not](https://github.com/AtomLinter/linter-csslint/issues/73) be used.
+
 
 ## Who is making this?
 
