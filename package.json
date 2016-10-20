@@ -4,7 +4,7 @@
     "description": "This is just a basic Electron app for tinkering purposes.",
     "main": "main.js",
     "devDependencies": {
-        "electron-prebuilt": "latest"
+        "electron": "latest"
     },
     "scripts": {
         "start": "electron .",
