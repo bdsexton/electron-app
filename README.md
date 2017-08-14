@@ -4,9 +4,9 @@
 
 ## Overview
 
-This is just a basic [Electron](http://electron.atom.io/) app for tinkering purposes.
+This is just a basic [Electron](https://electron.atom.io/) app for tinkering purposes.
 
-This project was started as a result of following an earlier version of the [Quick Start tutorial](http://electron.atom.io/docs/tutorial/quick-start/) in the [Electron Documentation](http://electron.atom.io/docs/). It has since been updated to maintain general parity of technique with the Electron 1.0 update to the tutorial, but the project's code and content do of course differ from those in the tutorial.
+This project was started as a result of following an earlier version of the [Quick Start tutorial](https://electron.atom.io/docs/tutorial/quick-start/) in the [Electron Documentation](https://electron.atom.io/docs/). It has since been updated to maintain general parity of technique with the Electron 1.0 update to the tutorial, but the project's code and content do of course differ from those in the tutorial.
 
 ## Setup
 
@@ -45,4 +45,4 @@ I would also like to get CSSLint to shut up about Internet Explorer 6 and 7 beca
 
 ## Who is making this?
 
-This is being made by [Brian Sexton](http://briansexton.com/) of [Carroket, Inc.](http://carroket.com/)
+This is being made by [Brian Sexton](https://briansexton.com/) of [Carroket, Inc.](https://carroket.com/)

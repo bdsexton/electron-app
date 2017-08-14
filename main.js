@@ -3,10 +3,10 @@
 	JavaScript for a Basic Electron App
 	-----------------------------------------------------------------------
 	Made in California by Brian Sexton
-	http://briansexton.com/
+	https://briansexton.com/
 	-----------------------------------------------------------------------
 	Based on the Electron Quick Start Tutorial
-	http://electron.atom.io/docs/tutorial/quick-start/
+	https://electron.atom.io/docs/tutorial/quick-start/
 
 \*============================================================================*/
 
